@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de texto | Oracle + Alura</title>
+    <meta
+      name="keywords"
+      content="Encriptador de texto, Oracle, Alura, Challenge, Proyecto"
+    />
+    <meta name="title" content="Encriptador de texto | Oracle + Alura" />
+    <meta
+      name="description"
+      content="Challenge propuesto por ONE (Oracle Next Education) y Alura utilizando HTML, CSS y Javascript"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Encriptador de texto | Oracle + Alura" />
+    <meta
+      property="og:description"
+      content="Challenge propuesto por ONE (Oracle Next Education) y Alura utilizando HTML, CSS y Javascript"
+    />
+    <meta property="og:image" content="" />
+    <meta name="author" content="JuanZ-Dev" />
+    <!-- CSS CONNECTION -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SWEET ALERT 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo"></div>
+      <button id="button-dark"></button>
+    </header>
+    <main>
+      <div id="content">
+        <div id="left">
+          <textarea id="text" placeholder="Ingrese el texto aquí"></textarea>
+          <div class="span-buttons">
+            <span>
+              <i class="fa-solid fa-circle-info"></i>Solo letras minúsculas y
+              sin acentos
+            </span>
+            <div class="buttons">
+              <button id="encrypt" class="btns" onclick="verifyText()">
+                Encriptar
+              </button>
+              <button id="decrypt" class="btns" onclick="decryptText()">
+                Desencriptar
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="right">
+          <div id="img-msg">
+            <div class="image">
+              <img src="./images/robotImage.png" alt="" />
+            </div>
+            <div class="message">
+              <p>Ningún mensaje fue encontrado</p>
+              <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+          </div>
+          <div id="right-content" class="disappear">
+            <textarea readonly id="result"></textarea>
+            <div class="buttonCopy">
+              <button id="copy" class="btns">
+                <p>Copiar</p>
+                <div>
+                  <i class="fa-regular fa-clipboard"></i>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="social-media">
+        <div>
+          <a href="https://github.com/JuanZ-Dev" target="_blank">
+            <i class="fa-brands fa-github"></i> Github
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/juan-del-jes%C3%BAs-zapata-durand-2a9944270/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin"></i> Linkedin
+          </a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/juanz_98/" target="_blank">
+            <i class="fa-brands fa-instagram"></i> Instagram
+          </a>
+        </div>
+      </div>
+      <div class="author">&copy; Juan Zapata - 2023</div>
+    </footer>
+
+    <!-- JS CONNECTION -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+@media (max-width: 1064px) {
+  .logo {
+    width: 120px;
+    height: 50px;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 1em 0;
+    width: 100%;
+    height: 77.5vh;
+  }
+
+  #left {
+    gap: 15px;
+    height: 300em;
+  }
+
+  #right {
+    height: 150em;
+  }
+
+  #right-content {
+    gap: 15px;
+  }
+
+  #img-msg {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .image {
+    width: 15em;
+    height: 9em;
+  }
+
+  footer {
+    padding-top: 8px;
+  }
+}
+
+@media (max-width: 840px) {
+  .logo {
+    width: 95px;
+    height: 40px;
+  }
+
+  #content {
+    height: 78vh;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  #img-msg {
+    gap: 10px;
+  }
+
+  .message p:nth-child(1) {
+    font-size: 85%;
+  }
+
+  .message p:nth-child(2) {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .image {
+    width: 10em;
+    height: 9em;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    min-width: 375px;
+  }
+
+  .image {
+    width: 9.5em;
+    height: 9em;
+  }
+}
