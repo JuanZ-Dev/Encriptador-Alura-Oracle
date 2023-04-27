@@ -9,7 +9,7 @@ function verifyText() {
     Swal.fire({
       title: "Error...",
       text: "El texto no cumple con los requisitos",
-      imageUrl: "../images/error.png",
+      imageUrl: "./images/error.png",
       imageWidth: 100,
     });
   }
