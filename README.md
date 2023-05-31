@@ -10,7 +10,7 @@ Prueba la aplicación: [https://juanz-dev.github.io/Encriptador-Alura-Oracle/](h
 </div>
 
 ### 📝 Descripción
-Este proyecto es una aplicación que encripta y desencripta textos, para su desarrollo se utilizó HTML, CSS y Javascript. La enciptación se realiza mediante la sustición de ciertas letras por otras, de acuerdo con algunas reglas específicas.
+Este proyecto es una aplicación que encripta y desencripta textos, para su desarrollo se utilizó HTML, CSS y Javascript. La encriptación se realiza mediante la sustición de ciertas letras por otras, de acuerdo con algunas reglas específicas.
 
 La aplicación cuenta con un campo para que el usuario ingrese el texto que desea encriptar o desencriptar, para luego seleccionar la boton que corresponde. El resultado que se genera de la operación se muestra en otro campo, también se tiene la posibilidad de copiar el texto encriptado o desencriptado al portapapeles mediante un botón de "Copiar".
 
