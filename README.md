@@ -50,7 +50,7 @@ Por ejemplo: "gato" => "gaitober"| gaitober" => "gato"
   <a href="https://github.com/JuanZ-Dev" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a><br/>
-  <a href="https://www.linkedin.com/in/juan-del-jes%C3%BAs-zapata-durand-2a9944270/" target="_blank">
+  <a href="https://www.linkedin.com/in/juan-zapata-durand/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a><br/>
   <a href="https://www.instagram.com/juanz_98/" target="_blank">
